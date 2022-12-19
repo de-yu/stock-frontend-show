@@ -1,0 +1,36 @@
+@font-face {
+  font-family: NotoSans;
+  src: url(./font-family/NotoSansTC-Medium.otf);
+}
+
+*
+{
+  font-family: NotoSans , sans-serif !important;
+}
+
+button, input, optgroup, select, textarea
+{
+  font-family: NotoSans , sans-serif !important;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to{
+  opacity: 0;
+}
+
+
+.cutin-enter-active
+{
+  transition: all .3s ease;
+}
+
+
+.cutin-leave-active {
+  transition: all .3s ease;
+}
+.cutin-enter,.cutin-leave-to{
+  transform: scale(1.2,1.2);
+  opacity: 0;
+}
